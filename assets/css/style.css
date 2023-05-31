@@ -99,3 +99,48 @@
 .btn:hover {
     opacity: 1;
 }
+
+/* Benefits Section */
+
+#key-benefits h2 {
+    background-color: var(--secondary);
+    font-weight: 500;
+    padding: 2em;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 4em;
+    width: 80%;
+}
+
+.benefit {
+    align-items: center;
+    color: var(--text-tertiary);
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    text-align: center;
+}
+
+.benefit .benefit-img {
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 250px;
+    margin-bottom: 1em;
+    width: 250px;
+}
+ 
+#benefit-1 {
+    background-image: url(../img/sqr-1.jpg);
+}
+#benefit-2 {
+    background-image: url(../img/sqr-2.jpg);
+}
+#benefit-3 {
+    background-image: url(../img/sqr-3.jpg);
+}
