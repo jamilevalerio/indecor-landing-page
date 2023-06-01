@@ -20,19 +20,19 @@
             <form>
                 <div class="form-group">
                     <label for="name">Nome</label>
-                    <input type="text" name="name" placeholder="Digite seu nome">
+                    <input type="text" id="name" placeholder="Digite seu nome">
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" placeholder="ex: nome@gmail.com">
+                    <input type="email" id="email" placeholder="ex: nome@gmail.com" autocomplete="email">
                 </div>
                 <div class="form-group">
                     <label for="cellphone">Celular</label>
-                    <input type="tel" name="cellphone" placeholder="ex: (00) 00000-0000">
+                    <input type="tel" id="cellphone" placeholder="ex: (00) 00000-0000">
                 </div>
                 <div class="form-group">
                     <label for="interest">Principal interesse</label>
-                    <select name="interest" id="">
+                    <select id="interest">
                         <option disabled>Selecione</option>
                         <option value="apartment">Apartamento</option>
                         <option value="house">Casa</option>
@@ -63,5 +63,20 @@
             </div>
         </div>
     </section>
+    <section id="location">
+        <div id="adress">
+            <i class="fa-solid fa-location-dot fa-beat fa-4x"></i>
+            <div id="adress-details">
+                <p>Rua do evento,1333</p>
+                <p>Bairro tal</p>
+                <p>Abertura: 14h</p>
+            </div>
+        </div>
+        <div id="about-location">
+            <h3>Local de destaque</h3>
+            <p>O evento será realizado em um local prestigiado pelos amantes de Design de Interiores, onde teremos exemplos de vários ambientes, tanto internos como externos.</p>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/4928138117.js" crossorigin="anonymous"></script>
 </body>
 </html>
